@@ -1,0 +1,31 @@
+@charset "UTF8";
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de Letra */
+    
+}
+body {
+    background-image: linear-gradient( to right, #3498DB, #2980B9); /*Cor do fundo da page*/
+}
+/*Main vai chamar a função no html dento do Body*/
+main { 
+    background-color: #ECF0F1; 
+    border-radius: 10px; /* Borda rendonda */
+    box-shadow: 5px 5px 15px #2C3E50 ; /*sombra da borda*/
+    width: 600px; /*tamanho*/
+    padding: 10px;
+    margin: auto;  /* local */
+}
+/*vai chamar a função no html dento do H1*/
+h1{
+    color: #E74C3C; /* cor da letra*/
+    text-align: center;
+    text-shadow: 1px 1px 2px #2C3E50;
+
+}
+h2 {
+    color: #2C3E50;
+
+}
+p {
+    text-align: justify;
+}

@@ -1,0 +1,42 @@
+@charset "UTF8";
+
+body{
+    background-image: linear-gradient(#5B8040, #74A251);
+    margin: 0px;
+    overflow-x: hidden;
+}
+ul{
+    display: inline-flex;
+    width: 950px;
+    height: 490px;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+    height: 100px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+p{
+    font-size: 25px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: solid;
+
+}
+a{
+    color: rgb(5, 5, 5);
+    font-weight: solid;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
