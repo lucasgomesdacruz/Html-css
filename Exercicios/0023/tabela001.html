@@ -6,25 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas tabelas</title>
     <style>
+        
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            font-weight: bolder;
+            
+            
         }
         table{
+
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
+        
         }
         tr.linha{
             background-color: rebeccapurple;
-
+        }
+        tr.linha2 {
+            background-color: red;
+        }
+        tr.linha3 {
+            background-color: rgb(3, 3, 65);
+        }
+        tr.linha4 {
+            background-color: brown;
         }
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center;/* Alinhamento horizotal */
+            vertical-align: top; /* Alinhamento vertical */
+        }
+        .numero {
+            text-align: left;
+        }
+        .numero2 {
+            text-align: right;
         }
     </style>
 </head>
 <body>
-    <h1>Minhas primeira tabela</h1>
+    <h1>Minha primeira tabela</h1>
     <!--
         HIERAQUIA DE TABELAS (simples)
         TABLE = tabela
@@ -33,25 +61,25 @@
                 TABLE DATA = dado de tabela
     -->
     <table>
-        <tr>
-            <td>A1</td>
+        <tr class="linha2">
+            <td class="numero">A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td class="numero2">C1</td>
         </tr>
         <tr class="linha">
-            <td>A2</td>
+            <td class="numero" >A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero2">C2</td>
         </tr>
-        <tr>
-            <td>A3</td>
+        <tr class="linha3">
+            <td class="numero">A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero2">C3</td>
         </tr>
-        <tr>
-            <td>A4</td>
+        <tr class="linha4">
+            <td class="numero">A4</td>
             <td>B4</td>
-            <td>C4</td>
+            <td class="numero2">C4</td>
         </tr>
     </table>
     
